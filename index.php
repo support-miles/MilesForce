@@ -11,7 +11,7 @@ function __autoload($class){
 // require 'application/lib/database.php';
 // require 'application/lib/session.php';
 
-//load config 
+//load config files
 require 'application/config/config.php';
 require 'application/config/database.php';
 

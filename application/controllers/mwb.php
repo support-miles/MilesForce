@@ -9,11 +9,11 @@ class Mwb extends Basecontroller{
         parent::__construct();
     }
 
-    public function mwblist($parameter1 = false){
-                   require 'application/models/ewb_model.php';
-                   $ewbmodel = new Ewb_model();
+    public function mwbdashboard($parameter1 = false){
+           require 'application/models/ewb_model.php';
+           $ewbmodel = new Ewb_model();
 
-                   $this->view->render('MilesWorkBook/mwb');
+           $this->view->render('MilesWorkBook/mwb');
      }
      
 

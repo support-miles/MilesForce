@@ -10,7 +10,7 @@
                     <span class="selected"></span>
                 </a>
             </li>
-    
+
              <li class="nav-item">
                 <a href="<?=URL?>Milestone/milestonedashboard" class="nav-link">
                     <i class="icon-notebook"></i>

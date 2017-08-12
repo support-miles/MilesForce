@@ -15,9 +15,9 @@
         <meta content="Shivam Chopra" name="author" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-        <?php include ('application/views/common/commonplugins.php'); ?>
-        <?php include ('application/views/common/commoncss.php'); ?>
-        <!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.css" rel="stylesheet"> -->
+<?php include ('application/views/common/commonplugins.php');?>
+        <?php include ('application/views/common/commoncss.php');?>
+<!-- <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.6/summernote.css" rel="stylesheet"> -->
         <style> body{ font-family: 'Roboto', sans-serif;} </style>
         <style type="text/css" media="screen">
             .aligncenter{
@@ -26,10 +26,10 @@
               padding: 5px 10px !important;
             }
             .ellipsis{
-              white-space: nowrap; 
+              white-space: nowrap;
               overflow: hidden;
-              width: 15em; 
-              text-overflow: ellipsis; 
+              width: 15em;
+              text-overflow: ellipsis;
             }
             .border1px{
               border: 1px #000 solid !important;
@@ -41,11 +41,11 @@
 
 <body class="page-content-white page-sidebar-closed page-header-fixed page-sidebar-fixed page-footer-fixed">
         <div class="page-wrapper">
-            <?php include ('application/views/common/topheader.php'); ?>
-            <div class="clearfix"> </div>
+<?php include ('application/views/common/topheader.php');?>
+<div class="clearfix"> </div>
             <div class="page-container">
-                <?php include ('application/views/common/sidebar.php'); ?>
-                    <div class="page-content-wrapper">
+<?php include ('application/views/common/sidebar.php');?>
+<div class="page-content-wrapper">
                         <div class="page-content">
                                  <div class="row">
                                         <div class="col-md-12" id="cpa_can_pro">
@@ -81,7 +81,8 @@
                                                       <td style="vertical-align: middle;" class="getotherdetails" canid="1">M-AUD-2456</td>
                                                       <td style="vertical-align: middle;"><a href="#" id="username1"  onclick="fullnameedit(1)" data-name="txt_name" data-type="username" firstname="Chandra Shekhar" lastname="Azad" data-placement="right" data-title="Enter username" data-pk="1" >Chandra Shekhar Azad</a></td>
                                                       <td style="vertical-align: middle;"><a href="#" id="level1" onclick="updatelevel(1)"  data-pk="1">CPA-M7-01</a></td>
-                                                      <td style="vertical-align: middle;"><a href="#" id="primarymobilenum1"  onclick="primarymobileedit(1)"  data-type="primarymobilenum" data-placement="right" data-mobile="8888888888" data-pcountrycode="+91" data-title="Enter Mobile">8888888888</a>&nbsp;<i class="fa fa-phone-square font-green-jungle oncall" style="font-size:20px;" callcanid="1" mobile="8888888888"></i></td>
+                                                      <td style="vertical-align: middle;"><a href="#" id="primarymobilenum1"  onclick="primarymobileedit(1)"  data-type="primarymobilenum" data-placement="right" data-mobile="8888888888" data-pcountrycode="+91" data-title="Enter Mobile">8888888888</a>&nbsp;
+<i class="fa fa-phone-square font-green-jungle oncall" style="font-size:20px;" callcanid="1" mobile="8888888888"></i></td>
                                                       <td style="vertical-align: middle;"><a href="#" class="company" data-placement="right" data-title="Select Company">Deloitte</a></td>
                                                       <td style="vertical-align: middle;">Online</td>
                                                       <td style="vertical-align: middle;">Overdue 2017</td>
@@ -96,14 +97,15 @@
                                                           </button>
                                                       </td>
                                                       <td>
-                                                        <div class="row otherdetails1"></div> 
+                                                        <div class="row otherdetails1"></div>
                                                       </td>
                                                     </tr>
                                                     <tr class="text-center">
                                                       <td style="vertical-align: middle;" class="getotherdetails" canid="2">M-AUD-2456</td>
                                                       <td style="vertical-align: middle;"><a href="#" id="username2" onclick="fullnameedit(2)" data-name="txt_name" data-type="username" firstname="shivam" lastname="chopra" data-placement="right" data-title="Enter username" data-pk="2" >shivam chopra</a></td>
                                                       <td style="vertical-align: middle;"><a href="#" id="level2" onclick="updatelevel(2)" data-pk="2">CPA-M7-01</a></td>
-                                                      <td style="vertical-align: middle;"><a href="#" id="primarymobilenum2" onclick="primarymobileedit(2)" data-type="primarymobilenum" data-placement="right" data-mobile="87878787878" data-pcountrycode="+91" data-title="Enter Mobile">5555555555</a>&nbsp;<i class="fa fa-phone-square font-green-jungle oncall" style="font-size:20px;" callcanid="2" mobile="87878787878"></i></td>
+                                                      <td style="vertical-align: middle;"><a href="#" id="primarymobilenum2" onclick="primarymobileedit(2)" data-type="primarymobilenum" data-placement="right" data-mobile="87878787878" data-pcountrycode="+91" data-title="Enter Mobile">5555555555</a>&nbsp;
+<i class="fa fa-phone-square font-green-jungle oncall" style="font-size:20px;" callcanid="2" mobile="87878787878"></i></td>
                                                       <td style="vertical-align: middle;"><a href="#" class="company" data-placement="right" data-title="Select Company">miles</a></td>
                                                       <td style="vertical-align: middle;">Online</td>
                                                       <td style="vertical-align: middle;">Overdue 2017</td>
@@ -118,7 +120,7 @@
                                                           </button>
                                                       </td>
                                                       <td>
-                                                        <div class="row otherdetails2"></div> 
+                                                        <div class="row otherdetails2"></div>
                                                       </td>
                                                     </tr>
                                                   </tbody>
@@ -132,8 +134,8 @@
                     </div>
             </div>
             <div id="chatload"></div>
-            <?php include ('application/views/common/footer.php'); ?>
-            <div class="scroll-to-top" style="display: none;"><i class="icon-arrow-up"></i></div>
+<?php include ('application/views/common/footer.php');?>
+<div class="scroll-to-top" style="display: none;"><i class="icon-arrow-up"></i></div>
   </div>
 <!-- // Modal Begins -->
 
@@ -257,14 +259,14 @@
                           <option value="Ph.D.">Ph.D.</option>
 
                       </optgroup>
-                     
+
                   </select>
-                  
+
                 </div>
                 <!-- 2nd Bachelors  education end -->
               </div>
               <!-- Masters education End -->
-            
+
              <!-- Begin for Professional eduaction -->
             <div class="form-group">
               <label class="control-label">professional</label>
@@ -289,7 +291,7 @@
                           <option value="CIMA - part">CIMA - part</option>
 
                       </optgroup>
-                      
+
                   </select>
                 </div>
                 <!-- 2nd Bachelors  education Begin -->
@@ -584,7 +586,7 @@
                           </div>
                          <div class="chat-form">
                               <div class="input-cont">
-                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/> 
+                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/>
                               </div><br/>
                                   <div align="center">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -651,7 +653,7 @@
                           </div>
                          <div class="chat-form">
                               <div class="input-cont">
-                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/> 
+                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/>
                               </div><br/>
                                   <div align="center">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -718,7 +720,7 @@
                           </div>
                          <div class="chat-form">
                               <div class="input-cont">
-                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/> 
+                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/>
                               </div><br/>
                                   <div align="center">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -785,7 +787,7 @@
                           </div>
                          <div class="chat-form">
                               <div class="input-cont">
-                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/> 
+                                  <input class="form-control" type="text" placeholder="Type a message here..."  id="chattext"/>
                               </div><br/>
                                   <div align="center">
                                     <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
@@ -854,19 +856,19 @@
     </div>
 </div>
 <!-- LeadDetails -->
-<?php include ('application/views/common/commonjs.php'); ?>
+<?php include ('application/views/common/commonjs.php');?>
 <!-- Modal Ends // -->
 </body>
 </html>
 
 
 <script>
-$(".getotherdetails").click(function(){ 
+$(".getotherdetails").click(function(){
        var expandcan = $(this).attr("canid");
        loadotherdetails(expandcan);
 });
 
-function loadotherdetails(expandcan){ 
+function loadotherdetails(expandcan){
   var baseurl = '<?=URL?>';
     $.ajax({
         url : baseurl+'ewb/ewbotherdetailslist',
@@ -874,16 +876,17 @@ function loadotherdetails(expandcan){
         data : {
             "canid" : expandcan
         },
-       success : function(data) { 
+       success : function(data) {
         //element.removeClass('parent')
         // $('tr').removeClass('parent'); // removes all highlights from tr's
         // $(this).addClass('parent'); // adds the highlight to this row
         // jQuery('table tr.parent').not(this).removeClass('parent');
         // $('table tr.parent').removeClass('parent');
-        // $('table tr.child').not("getotherdetails sorting_1").remove();//remove();
+        // $('table tr.child').not("getotherdetails sorting_1").remove();
+//remove();
            $(".otherdetails"+expandcan).html(data);
         }
-     }); 
+     });
 }
 
 $(document).on('click', '.oncall', function () {
@@ -897,17 +900,17 @@ $(document).on('click', '.oncall', function () {
                   "canid" : expandcan,
                    "mobile" :mobile
               },
-             success : function(data) { 
+             success : function(data) {
                    $("#chatload").html(data);
               }
-           }); 
+           });
 });
 
 </script>
 <script>
-  $.fn.editable.defaults.mode = 'popup';     
-   
-   function  fullnameedit(canid){ 
+  $.fn.editable.defaults.mode = 'popup';
+
+   function  fullnameedit(canid){
            var baseurl = '<?=URL?>';
            $('#username'+canid).editable({
                   send: 'always',
@@ -917,14 +920,14 @@ $(document).on('click', '.oncall', function () {
                       dataType: 'post'
                   },
                    params: {
-                     action: 'updatename',//to find the code search with action in ajax.php file 
+                     action: 'updatename',//to find the code search with action in ajax.php file
                      column1:'first_name',
                      column2:'last_name'
                   },
                   autotext:"never ",
                    value: {
-                      firstname: $("#username"+canid).attr("firstname"), 
-                      lastname:$("#username"+canid).attr("lastname"), 
+                      firstname: $("#username"+canid).attr("firstname"),
+                      lastname:$("#username"+canid).attr("lastname"),
                   },
                   success: function(response, newValue) {
                      // $( "#Response" ).load( "../ajax/get/{{issue_obj.id}}/response/" );
@@ -946,17 +949,17 @@ function updatelevel(canid){
   });
 }
 // $(document).on('click', '.primarymobilenum', function () {
-  function  primarymobileedit(canid){ 
-      //make Mobile num editable  //sourceCountry 
+  function  primarymobileedit(canid){
+      //make Mobile num editable  //sourceCountry
       $('#primarymobilenum'+canid).editable({
                   send: 'always',
-                  url: 'EnrollWorkBook/ajax.php',  
+                  url: 'EnrollWorkBook/ajax.php',
                   title: 'Enter Country code and Mobile',
                   ajaxOptions: {
                       dataType: 'post'
                   },
                 params: {
-                     action: 'updateprimarycontact', //to find the code search with action in ajax.php file 
+                     action: 'updateprimarycontact', //to find the code search with action in ajax.php file
                      column1:'countrycode',
                      column2:'primarymobile'
                   },
@@ -968,21 +971,21 @@ function updatelevel(canid){
                   {value: "+91", text: "India"},
                   {value: "+61", text: "Australia"}
               ]
-       }); 
+       });
 }
 //make company editable
-  $('.company').editable({ 
+  $('.company').editable({
   });
 
 
 //make Next followup date editable
-  $('.nextfollowupdate').editable({ 
+  $('.nextfollowupdate').editable({
   });
 
-function updatedesignation(canid,designation){ 
+function updatedesignation(canid,designation){
    $("#descanid").val(canid);
    $("#designationtext").val(designation);
-   $('#designation').modal('show');    
+   $('#designation').modal('show');
 }
 
 function updateeducation(canid,education){
@@ -990,10 +993,10 @@ function updateeducation(canid,education){
    $(".select2-selection__rendered").html("");
    $('input:checkbox').removeAttr('checked');
    alert("run ajax call and get existing education and preselect ");
-   $('#education').modal('show');    
+   $('#education').modal('show');
 }
 
-function updateexperience(candid,experience){ 
+function updateexperience(candid,experience){
      //make experience editable
         $(".experience"+candid).editable({
           type: 'select',
@@ -1030,11 +1033,11 @@ function updateemail(canid,pemail,semail){
      $("#emailcanid").val(canid);
      $("#primaryemail").val(pemail);
      $("#secondaryemail").val(semail);
-     $('#email').modal('show');  
+     $('#email').modal('show');
 }
 function updatecontact(canid){
      $("#contactcanid").val(canid);
-     $('#alternateContact').modal('show');  
+     $('#alternateContact').modal('show');
 }
 
 function updategender(canid,genderval){
@@ -1075,18 +1078,18 @@ function updatesource(canid,sourceval){
       });
 }
 //make evaluation editable
-function updateevolution(candid,experience){ 
-     $('.evaluation'+candid).editable({ 
+function updateevolution(candid,experience){
+     $('.evaluation'+candid).editable({
                 send: 'always',
                 type: 'select',
                 title: 'Select Evaluation',
-                url: 'EnrollWorkBook/ajax.php',  
+                url: 'EnrollWorkBook/ajax.php',
                 ajaxOptions: {
                  cache: true,
                   dataType: 'post'
                 },
                 params: {
-                 action: 'updateevaluation',//to find the code search with action in ajax.php file 
+                 action: 'updateevaluation',//to find the code search with action in ajax.php file
                  column1:'evaluation'
                 },
                 autotext:"never ",
@@ -1101,20 +1104,20 @@ function updateevolution(candid,experience){
                  // $( "#Response" ).load( "../ajax/get/{{issue_obj.id}}/response/" );
                 }
      });
- } 
+ }
  //make milesfeedback editable
- function updatents(candid,experience){ 
-     $('.NTS'+candid).editable({ 
+ function updatents(candid,experience){
+     $('.NTS'+candid).editable({
               send: 'always',
               type: 'select',
               title: 'Select Evaluation',
-              url: 'EnrollWorkBook/ajax.php',  
+              url: 'EnrollWorkBook/ajax.php',
               ajaxOptions: {
                cache: true,
                 dataType: 'post'
               },
             params: {
-             action: 'updatents',//to find the code search with action in ajax.php file 
+             action: 'updatents',//to find the code search with action in ajax.php file
              column1:'nts'
             },
             autotext:"never ",
@@ -1134,13 +1137,13 @@ function updateaudtarget(candid,experience){
             send: 'always',
             type: 'select',
             title: 'Select AUD Target',
-            url: 'EnrollWorkBook/ajax.php',  
+            url: 'EnrollWorkBook/ajax.php',
              ajaxOptions: {
                cache: true,
                 dataType: 'post'
               },
             params: {
-             action: 'updateaudtarget',//to find the code search with action in ajax.php file 
+             action: 'updateaudtarget',//to find the code search with action in ajax.php file
              column1:'audtarget'
             },
            autotext:"never ",
@@ -1162,18 +1165,18 @@ function updateaudtarget(candid,experience){
      });
 }
 //make bec next exam editable
-function updatebectarget(candid,experience){ 
-     $('.becnext'+candid).editable({ 
+function updatebectarget(candid,experience){
+     $('.becnext'+candid).editable({
               send: 'always',
               type: 'select',
               title: 'Select BEC Target',
-              url: 'EnrollWorkBook/ajax.php',  
+              url: 'EnrollWorkBook/ajax.php',
               ajaxOptions: {
                cache: true,
                 dataType: 'post'
               },
             params: {
-             action: 'updatbectarget',//to find the code search with action in ajax.php file 
+             action: 'updatbectarget',//to find the code search with action in ajax.php file
              column1:'bectarget'
             },
             autotext:"never ",
@@ -1195,18 +1198,18 @@ function updatebectarget(candid,experience){
      });
 }
 //make far next exam editable
-function updatefartarget(candid,experience){ 
-     $('.farnext'+candid).editable({ 
+function updatefartarget(candid,experience){
+     $('.farnext'+candid).editable({
               send: 'always',
               type: 'select',
               title: 'Select FAR Target',
-              url: 'EnrollWorkBook/ajax.php',  
+              url: 'EnrollWorkBook/ajax.php',
               ajaxOptions: {
                cache: true,
                 dataType: 'post'
               },
             params: {
-             action: 'updatefartarget',//to find the code search with action in ajax.php file 
+             action: 'updatefartarget',//to find the code search with action in ajax.php file
              column1:'fartarget'
             },
             autotext:"never ",
@@ -1228,18 +1231,18 @@ function updatefartarget(candid,experience){
      });
 }
 //make reg next exam editable
-function updateregtarget(candid,experience){ 
-     $('.regnext'+candid).editable({ 
+function updateregtarget(candid,experience){
+     $('.regnext'+candid).editable({
               send: 'always',
               type: 'select',
               title: 'Select REG Target',
-              url: 'EnrollWorkBook/ajax.php',  
+              url: 'EnrollWorkBook/ajax.php',
               ajaxOptions: {
                cache: true,
                 dataType: 'post'
               },
             params: {
-             action: 'updateregtarget',//to find the code search with action in ajax.php file 
+             action: 'updateregtarget',//to find the code search with action in ajax.php file
              column1:'regtarget'
             },
             autotext:"never ",
@@ -1262,18 +1265,18 @@ function updateregtarget(candid,experience){
 }
 
 //make miles feedback editable
-function updatemilesfeedback(candid,experience){ 
-         $('.milesfeedback'+candid).editable({ 
+function updatemilesfeedback(candid,experience){
+         $('.milesfeedback'+candid).editable({
               send: 'always',
               type: 'select',
               title: 'Select REG Target',
-              url: 'EnrollWorkBook/ajax.php',  
+              url: 'EnrollWorkBook/ajax.php',
               ajaxOptions: {
                cache: true,
                 dataType: 'post'
               },
             params: {
-             action: 'updatemilesfeedback',//to find the code search with action in ajax.php file 
+             action: 'updatemilesfeedback',//to find the code search with action in ajax.php file
              column1:'milesfeedback'
             },
             autotext:"never ",
@@ -1288,21 +1291,21 @@ function updatemilesfeedback(candid,experience){
                 {value: 7, text: 'Status Unknown'},
             ]
      });
-}  
+}
 
-function updatecorporatereferral(candid,experience){ 
+function updatecorporatereferral(candid,experience){
    //make Referral editable
       $('.corporatereferral'+candid).editable({
           send: 'always',
           type: 'select',
           title: 'Select Referral',
-          url: 'EnrollWorkBook/ajax.php',  
+          url: 'EnrollWorkBook/ajax.php',
           ajaxOptions: {
                cache: true,
                 dataType: 'post'
           },
           params: {
-             action: 'updatecorporatereferral',//to find the code search with action in ajax.php file 
+             action: 'updatecorporatereferral',//to find the code search with action in ajax.php file
              column1:'milesfeedback'
           },
           value: 1,
@@ -1314,16 +1317,16 @@ function updatecorporatereferral(candid,experience){
               {value: 5, text: 'Not Applicable'}
           ]
       });
-} 
+}
 
-     
+
 
 
 $(document).on('click', 'a', function () {
-   
+
 
      //make placement editable
-     $('.placement').editable({ 
+     $('.placement').editable({
             type: 'select',
             title: 'Select Placement',
             placement: 'right',
@@ -1337,7 +1340,7 @@ $(document).on('click', 'a', function () {
      });
 
     //make sr status editable
-     $('.srstatus').editable({ 
+     $('.srstatus').editable({
             type: 'select',
             title: 'Select SR Status',
             placement: 'right',
@@ -1355,7 +1358,8 @@ $(document).on('click', 'a', function () {
 $(document).on('click','.designationupdate',function(){
     var canid = $("#descanid").val();
     var designationtext = $("#designationtext").val();
-    alert(canid);alert(designationtext);
+    alert(canid);
+alert(designationtext);
     alert("updatedesignation");
 });
 
@@ -1407,7 +1411,7 @@ $(".updatemobile").click(function(){
      alert("update Mobile");
 });
 
-$(document).on('click', '.addressclick', function () { 
+$(document).on('click', '.addressclick', function () {
            $.getJSON("../Include/jsondata/country.json", function(json){
                   $('.country').empty();
                   $('.country').append($('<option>').text("Select"));
@@ -1415,7 +1419,7 @@ $(document).on('click', '.addressclick', function () {
                           $('.country').append($('<option>').text(obj.text).attr('value', obj.val));
                   });
           });
-}); 
+});
 
 $(document).on("change",".country",function(){
     alert("country selected");
@@ -1430,7 +1434,7 @@ $('#search').keyup(function(){
 
 //update chat
 $(".updatechat").click(function(){
-   var chattext = $("#chattext").val(); 
+   var chattext = $("#chattext").val();
    alert("update chat")
 });
 </script>

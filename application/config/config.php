@@ -1,3 +1,3 @@
 <?php
-define('URL','http://localhost/dropbox/customphpframework/');
-define('commonviews','http://localhost/dropbox/customphpframework/application/views/');
+define('URL','http://localhost/milesForce/');
+define('commonviews','http://localhost/milesForce/application/views/');
